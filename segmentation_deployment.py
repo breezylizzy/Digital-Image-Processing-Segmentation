@@ -60,7 +60,7 @@ def main():
 
     st.sidebar.markdown("---")
     st.sidebar.markdown("### About")
-    st.sidebar.image("embos.png", use_container_width=True)
+    st.sidebar.image("embos.png", use_column_width=True)
     st.sidebar.info("© 2025 - Digital Image Processing | Group 3 2023F")
 
     uploaded_file = st.file_uploader("Upload file .npy Sentinel-2 data", type=["npy"])
